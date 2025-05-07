@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* headbar */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: #6917db; /* Couleur prédéfinie */
+    color: white;
+}
+
+.logo {
+    width: 50px; /* Taille du logo */
+    margin-right: 15px;
+}
+
+h1 {
+    font-size: 1.8em;
+}
+
+/* Image */
+.card {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 1000px;
+    box-shadow: 0 0 0 5px #ffffff80;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    margin-top: 50px;
+  }
+  
+  .card svg {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+  }
+  
+  .card__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    transform: rotateX(-90deg);
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .card:hover .card__content {
+    transform: rotateX(0deg);
+  }
+  
+  .card__title {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+    font-weight: 700;
+  }
+  
+  .card:hover svg {
+    scale: 0;
+  }
+  
+  .card__description {
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #777;
+    line-height: 1.4;
+  }
+  
+  .gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.arrow {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #6917db;
+    transition: color 0.3s;
+}
+
+.arrow:hover {
+    color: #451197;
+}
+
+/* logo */
+.logo {
+    width: 100px;
+}
+
+/* footer */
+footer {
+    background-color: #6917db; /* Couleur de fond */
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: fixed; /* Fixe le footer en bas */
+    bottom: 0;
+    width: 100%;
+}
+footer a {
+    color: #ffcc00; /* Couleur des liens */
+    text-decoration: none;
+    margin: 0 10px;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* GitHub button */
+.Btn {
+    border: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    background: rgb(31, 31, 31);
+    overflow: hidden;
+    transition: .4s;
+  }
+  
+  .text {
+    position: absolute;
+    color: white;
+    width: 120px;
+    font-weight: 600;
+    opacity: 0;
+    transition: .4s;
+    top: 50%; /* Centre le texte verticalement */
+    left: 50%; /* Centre le texte horizontalement */
+    transform: translate(-50%, -50%); /* Ajuste la position précisément */
+}
+
+  
+  .Btn:hover {
+    width: 110px;
+    border-radius: 30px;
+  }
+  
+  .Btn:hover .text { opacity: 1; }
+  .Btn:hover .svgIcon { opacity: 0; }
+
+  .svgIcon path {
+    fill: white;
+}
