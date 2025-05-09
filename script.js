@@ -8,6 +8,11 @@ const icons = {
   
   document.getElementById("iconContainer").innerHTML = icons.github;
 
+// Redirection avec le bouton
+document.querySelector(".Btn").addEventListener("click", function() {
+    window.location.href = "https://github.com/Zack140821"; // A modifié pour rediriger vers le dépôt publique
+});
+
 // Chargement et Gestion de l'image
 const images = [
     // src = source de l'image, title = nom de l'image à afficher sur la carte, description = description de l'image à afficher sur la carte, alt = texte alternatif.
