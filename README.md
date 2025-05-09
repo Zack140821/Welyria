@@ -3,6 +3,7 @@
 **Welyria** est un site imaginé par [RealPoTr](https://github.com/RealPoTr) et développé par [Zack140821](https://github.com/Zack140821).  
 Son objectif est de présenter, sous forme de galerie interactive, les différentes découvertes spatiales réalisées par RealPoTr.
 
+---
 ## 🔧 Fonctionnalités
 - 📷 **Affichage d’images** : Une galerie dynamique permettant de naviguer entre différentes images.
 - 🖼️ **Effets d’animation** : Une interface moderne avec des effets visuels soignés.
@@ -32,13 +33,16 @@ Vous souhaitez changer le nom de votre site sans devoir tous chercher à la main
 <title>Welyria</title>
 ```
 Une fois cette modification faite, actualisez la page et tout sera régler !
+
 ---
 ## 🚀 Aperçu & Utilisation
 ### 🎭 Design & Interactivité
 Le site Welyria propose une interface fluide et animée, optimisée pour une expérience immersive et agréable. Chaque image présentée dans la galerie est accompagnée d’un titre et d’une description, permettant à l’utilisateur de mieux contextualiser chaque découverte.
+
 ---
 ## 🔥 Contributions & Améliorations
 Si vous souhaitez apporter des améliorations à Welyria, n’hésitez pas à soumettre vos propositions via un [pull request](https://github.com/Zack140821/Welyria/pulls). Tout ajout est le bienvenu, que ce soit pour améliorer le design, optimiser le code ou enrichir les fonctionnalités.
+
 ---
 ## 📜 Crédits
 - 💡 Concept & Idée : RealPoTr
